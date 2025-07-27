@@ -1,0 +1,14 @@
+{
+  "name": "hardhat-project",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^6.1.0",
+    "hardhat": "^2.26.1"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.1",
+    "ethers": "^6.15.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "web3": "^4.16.0"
+  }
+}
