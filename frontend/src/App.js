@@ -92,7 +92,7 @@ function App() {
   return (
     <div className="app-container">
       <header className="app-header">
-        <img src="/logo.png" alt="Logo" className="app-logo" />
+        <img src="/logo1.png" alt="Logo" className="app-logo" />
         <h1>Lost & Found DApp</h1>
         <button className="connect-btn" onClick={connectWallet}>🔗 Connect Wallet</button>
         <p className="account-status">Connected: {account || 'Not connected'}</p>
@@ -106,7 +106,7 @@ function App() {
         {loading && <div className="loading">Loading...</div>}
 
         <section className="form-card">
-          <h2>📤 Report Lost Item</h2>
+          <h2> Report Lost Item</h2>
           <input
             type="text"
             placeholder="Item Description"
@@ -127,7 +127,7 @@ function App() {
         </section>
 
         <section className="form-card">
-          <h2>🧾 Claim Found Item</h2>
+          <h2> Claim Found Item</h2>
           <input
             type="number"
             placeholder="Item ID"
@@ -142,7 +142,7 @@ function App() {
         </section>
 
         <section className="items-section">
-          <h2>📦 Reported Items</h2>
+          <h2> Reported Items</h2>
           <div className="items-grid">
             {items.map((item) => (
               <div className="item-card" key={item.id}>
